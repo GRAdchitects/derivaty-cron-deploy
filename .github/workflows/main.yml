@@ -1,0 +1,16 @@
+name: derivaty cron deploy 
+
+on:
+  schedule:
+   - cron: '*/15 * * * *'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: amondnet/now-deployment@v2
+        with:
+          zeit-token: 'd68HULRQaaiA2AnqP1LUrdxY'
+          now-args: '--prod'
+          now-project-id: 'prj_odO3zb3VrJCV8S65nzdVg6l25Ksy'
