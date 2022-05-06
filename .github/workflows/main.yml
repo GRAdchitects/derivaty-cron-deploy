@@ -11,6 +11,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: amondnet/now-deployment@v2
         with:
-          zeit-token: 'd68HULRQaaiA2AnqP1LUrdxY'
+          zeit-token: ${{secrets.VERCEL_KEY}}
           now-args: '--prod'
-          now-project-id: 'prj_odO3zb3VrJCV8S65nzdVg6l25Ksy'
+          now-project-id: ${{secrets.PROJECT_ID}}
