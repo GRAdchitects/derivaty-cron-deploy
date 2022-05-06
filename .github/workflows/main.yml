@@ -3,7 +3,7 @@ name: derivaty cron deploy
 on:
   schedule:
    - cron: '*/15 * * * *'
-
+  workflow_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-latest
