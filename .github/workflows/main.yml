@@ -13,5 +13,5 @@ jobs:
         with:
           zeit-token: d68HULRQaaiA2AnqP1LUrdxY
           now-args: '--prod'
-          now-org-id: WAlaNgy18zT5WEWEdLnHH0sg
+          now-org-id: team_hATeAYAXeHcKAKKBlvxFaVGk
           now-project-id: prj_odO3zb3VrJCV8S65nzdVg6l25Ksy
