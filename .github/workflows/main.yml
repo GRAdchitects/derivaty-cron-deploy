@@ -13,4 +13,5 @@ jobs:
         with:
           zeit-token: ${{secrets.VERCEL_KEY}}
           now-args: '--prod'
+          now-org-id: ${{ secrets.ZEIT_ORG_ID }}
           now-project-id: ${{secrets.PROJECT_ID}}
